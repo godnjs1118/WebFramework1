@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.formtable {
+	width: 400px;
+	border: 1px solid blue;
+	margin: 50px;
+	padding: 10px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid olive;
+    margin: 20px 10px;
+}
+table td {
+	border:1px solid black;
+}
+
+input[type=text] {
+	width: 200px;
+}
+
+input[type=password] {
+	width: 200px;
+}
+
+input[type=submit] {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
